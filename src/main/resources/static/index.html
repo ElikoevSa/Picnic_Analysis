@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8"/>
+    <title>Mini Загрузочная форма на аякс</title>
+
+    <!-- Подключение шрифтов через гугл -->
+    <link href="http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700" rel='stylesheet' />
+
+    <!-- Главный CSS файл -->
+    <link href="assets/css/style.css" rel="stylesheet" />
+</head>
+<body>
+<form method="POST" enctype="multipart/form-data" action="/upload">
+
+  <p align="center" id="upload"> File to upload: <input type="file" name="file">
+    <br />
+    Name: <input type="text" name="name">
+    <br />
+    <br />
+    <input type="submit" value="Выполнить"> Нажмите сюда для загрузки и анализа файла.
+</form>
+</body>
+</html>
